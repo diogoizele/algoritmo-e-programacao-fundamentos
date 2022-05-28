@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Tv
+comment1.params=quantidadeDeCanais\ canalAtual\ smartTv\ ligada
+comment1.target=Tv(int,\ java.lang.String,\ boolean,\ boolean)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment11.params=
+comment11.target=void\ imprimirInformacoes()
+comment12.params=url
+comment12.target=void\ acessarWebsite(java.lang.String)
+comment2.params=
+comment2.target=int\ getQuantidadeDeCanais()
+comment3.params=
+comment3.target=java.lang.String\ getCanalAtual()
+comment4.params=
+comment4.target=boolean\ isSmartTv()
+comment5.params=
+comment5.target=boolean\ isLigada()
+comment6.params=quantidadeDeCanais
+comment6.target=void\ setQuantidadeDeCanais(int)
+comment7.params=canalAtual
+comment7.target=void\ setCanalAtual(java.lang.String)
+comment8.params=smartTv
+comment8.target=void\ setSmartTv(boolean)
+comment9.params=ligada
+comment9.target=void\ setLigada(boolean)
+numComments=13

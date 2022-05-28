@@ -18,5 +18,10 @@ public class Principal {
         // System.out.println("Ajustou temperatura do ar ad? " +  ad.ajustaTemperaturaAtual());
         // ad.imprimirInformacoes();
         
+        Tv tv = new Tv(30, "Discovery Channel", true, true);
+        tv.acessarWebsite("https://netflix.com");
+        
+        Tv tvVelha = new Tv(30, "Globo", false, true);
+        tvVelha.acessarWebsite("https://youtube.com");
     }
 }
