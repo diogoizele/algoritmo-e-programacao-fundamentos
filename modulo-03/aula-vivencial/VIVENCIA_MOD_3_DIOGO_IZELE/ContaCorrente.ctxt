@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ContaCorrente
+comment1.params=numero\ saldo
+comment1.target=ContaCorrente(int,\ double)
+comment2.params=
+comment2.target=int\ getNumero()
+comment3.params=
+comment3.target=double\ getSaldo()
+comment4.params=numero
+comment4.target=void\ setNumero(int)
+comment5.params=saldo
+comment5.target=void\ setSaldo(double)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=valor
+comment7.target=void\ efetuaDeposito(double)
+comment8.params=valor
+comment8.target=void\ efetuaSaque(double)
+numComments=9

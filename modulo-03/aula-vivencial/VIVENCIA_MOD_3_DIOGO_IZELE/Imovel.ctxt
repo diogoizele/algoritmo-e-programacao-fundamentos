@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Imovel
+comment1.params=endereco\ valorVenda\ valorAluguel\ novo
+comment1.target=Imovel(java.lang.String,\ double,\ double,\ boolean)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment11.params=
+comment11.target=double\ calculaImposto()
+comment2.params=
+comment2.target=java.lang.String\ getEndereco()
+comment3.params=
+comment3.target=double\ getValorVenda()
+comment4.params=
+comment4.target=double\ getValorAluguel()
+comment5.params=
+comment5.target=boolean\ isNovo()
+comment6.params=endereco
+comment6.target=void\ setEndereco(java.lang.String)
+comment7.params=valorVenda
+comment7.target=void\ setValorVenda(double)
+comment8.params=valorAluguel
+comment8.target=void\ setValorAluguel(double)
+comment9.params=novo
+comment9.target=void\ setNovo(boolean)
+numComments=12
