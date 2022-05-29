@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Esporte
+comment1.params=quantJogadores\ nome\ categoria\ olimpico\ individual
+comment1.target=Esporte(int,\ java.lang.String,\ java.lang.String,\ boolean,\ boolean)
+comment10.params=
+comment10.target=boolean\ isIndividual()
+comment11.params=individual
+comment11.target=void\ setIndividual(boolean)
+comment2.params=
+comment2.target=int\ getQuantJogadores()
+comment3.params=quantJogadores
+comment3.target=void\ setQuantJogadores(int)
+comment4.params=
+comment4.target=java.lang.String\ getNome()
+comment5.params=nome
+comment5.target=void\ setNome(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getCategoria()
+comment7.params=categoria
+comment7.target=void\ setCategoria(java.lang.String)
+comment8.params=
+comment8.target=boolean\ isOlimpico()
+comment9.params=olimpico
+comment9.target=void\ setOlimpico(boolean)
+numComments=12
