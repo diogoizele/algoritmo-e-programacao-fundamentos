@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=PrimeiraDivisao
+comment1.params=nome\ quantidadeSocios\ posicaoNoRanking
+comment1.target=PrimeiraDivisao(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=int\ getPosicaoNoRanking()
+comment3.params=posicaoNoRanking
+comment3.target=void\ setPosicaoNoRankking(int)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
