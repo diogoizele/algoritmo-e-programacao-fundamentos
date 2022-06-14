@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=ExerciciosArray
+comment1.params=notas
+comment1.target=double\ calcularMediaDeNotas(double[])
+comment2.params=nomes
+comment2.target=java.lang.String\ juntaNomes(java.lang.String[])
+comment3.params=inteiros
+comment3.target=int\ somarInteiros(int[])
+comment4.params=nomes\ nome
+comment4.target=int\ procuraNome(java.lang.String[],\ java.lang.String)
+comment5.params=arr1\ arr2
+comment5.target=int[]\ somaArrays(int[],\ int[])
+comment6.params=arr
+comment6.target=void\ informaArrayDeDouble(double[])
+comment7.params=
+comment7.target=void\ geraAleat\u00F3rios()
+numComments=8

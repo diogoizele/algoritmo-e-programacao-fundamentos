@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TeleSena
+comment1.params=
+comment1.target=TeleSena()
+comment2.params=
+comment2.target=int[]\ getConjunto1()
+comment3.params=
+comment3.target=void\ imprimeConjunto1()
+comment4.params=
+comment4.target=int[]\ getConjunto2()
+comment5.params=
+comment5.target=void\ imprimeConjunto2()
+numComments=6
