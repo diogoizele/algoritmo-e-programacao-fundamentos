@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class TeleSena {
     public static final double VALOR = 10.0;
     private int[] conjunto1 = new int[25];
@@ -28,6 +30,7 @@ public class TeleSena {
                 i++;
             }
         }
+        Arrays.sort(conjunto1);
         
         i = 0;
         while (i < conjunto2.length) {
@@ -45,6 +48,7 @@ public class TeleSena {
                 i++;
             }
         }
+        Arrays.sort(conjunto2);
        
     }
     
@@ -53,11 +57,7 @@ public class TeleSena {
     }
     
     public void imprimeConjunto1() {
-        String resultado = "";
-        for (int i = 0; i < conjunto1.length; i++)
-            resultado += conjunto1[i] + " - ";
-        
-        System.out.println(resultado);
+        System.out.println(toStringConjunto1());
     }
     
     public int[] getConjunto2() {
@@ -65,10 +65,36 @@ public class TeleSena {
     }
     
     public void imprimeConjunto2() {
-        String resultado = "";
-        for (int i = 0; i < conjunto2.length; i++)
-            resultado += conjunto2[i] + " - ";
-        
-        System.out.println(resultado);
+        System.out.println(toStringConjunto2());
+    }
+    
+    public String toStringConjunto1() {
+        String resultado = "Conjunto 1: ";
+        for (int i = 0; i < conjunto1.length; i++) {
+            resultado += conjunto1[i];
+            if (i != conjunto1.length - 1)
+                resultado += " - ";
+        }
+        return resultado;
+    }
+    
+    public String toStringConjunto2() {
+        String resultado = "Conjunto 2: ";
+        for (int i = 0; i < conjunto2.length; i++) {
+            resultado += conjunto2[i];
+            if (i != conjunto2.length - 1)
+                resultado += " - ";
+        }
+        return resultado;
+    }
+    
+    
+    public String toString() {
+        String resultado = "\n---------------------------//------------------------------------------------------//---------------------------\n";
+        resultado += toStringConjunto1();
+        resultado += "\n";
+        resultado += toStringConjunto2();
+        resultado +=  "\n---------------------------//------------------------------------------------------//---------------------------\n";
+        return resultado;
     }
 }

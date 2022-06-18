@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Gerador
+comment0.text=\r\n\ A\ classe\ Gerador\ trata-se\ de\ uma\ classe\ auxiliar,\ que\ n\u00E3o\ \r\n\ foi\ cobrado\ no\ trabalho,\ por\u00E9m,\ para\ manter\ uma\ organiza\u00E7\u00E3o\r\n\ e\ um\ c\u00F3digo\ um\ pouco\ mais\ limpo,\ fiz\ ela\ para\ gerar\ as\ 20\ \r\n\ pessoas\ do\ sistema\ com\ seus\ respectivos\ nomes\ etc...\r\n
+comment1.params=max
+comment1.target=int\ geraAleatorio(int)
+comment2.params=
+comment2.target=java.lang.String\ geraNome()
+comment3.params=quantidade
+comment3.target=TeleSena[]\ geraTelesenas(int)
+numComments=4

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Gerador
+comment1.params=quantidade
+comment1.target=int[]\ geraInteiros(int)
+comment2.params=max
+comment2.target=int\ geraAleatorio(int)
+comment3.params=
+comment3.target=java.lang.String\ geraNome()
+numComments=4

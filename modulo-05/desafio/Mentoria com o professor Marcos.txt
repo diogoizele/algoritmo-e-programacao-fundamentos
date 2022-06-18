@@ -1,0 +1,10 @@
+Looping geral sorteando numeros => 7 
+
+
+looping => pra todas pessoas 
+para cada pessoa um loop => nas telesenas {
+	Verificar se tem o numero em um dos conjuntos se tiver eu incremento na telesena os acertos []
+	verificar se numeroAcertos = 25
+}
+
+Controles das telesenas tem os ganhadores inteiro -> na pessoa verifica se a te 

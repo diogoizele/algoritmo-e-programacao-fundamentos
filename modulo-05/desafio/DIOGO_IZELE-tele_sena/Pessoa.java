@@ -1,12 +1,14 @@
 public class Pessoa {
     private String nome;
-    private TeleSena[] telesenas = new TeleSena[15];
+    private TeleSena[] telesenas;
     private double premiacoes;
+    // quantidade telesenas
     
-    public Pessoa(String nome, TeleSena[] telesenas, double premiacoes){
+    
+    public Pessoa(String nome, TeleSena[] telesenas){
         this.nome = nome;
         this.telesenas = telesenas;
-        this.premiacoes = premiacoes;
+        this.premiacoes = 0;
     }
     
     public void setNome(String nome) {
@@ -32,4 +34,23 @@ public class Pessoa {
     public double getPremiacoes() {
         return this.premiacoes;
     }
+    
+    public String toString() {
+        return "\nNome: " + this.nome + "\nQuantidade de tele senas: " + this.telesenas.length + "\nPremiações: " + this.premiacoes;
+    }
+    
+    public void addTelesena(TeleSena telesena) {
+        for (int i = 0; i < this.telesenas.length; i++) {
+            if (this.telesenas[i] == null) {
+                this.telesenas[i] = telesena;
+                break;
+            }
+        }
+    }
+    
+    public float compraTelesena(TeleSena telesena) {
+        addTelesena(telesena);
+        return 10;
+    }
+    
 }

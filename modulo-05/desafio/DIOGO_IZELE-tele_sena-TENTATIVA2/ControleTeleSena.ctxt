@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ControleTeleSena
+comment1.params=
+comment1.target=ControleTeleSena()
+comment2.params=
+comment2.target=void\ iniciaSorteio()
+comment3.params=ganhador
+comment3.target=void\ adicionaGanhador(Pessoa)
+numComments=4
